@@ -1,0 +1,11 @@
+{% extends 'menu/base.html' %}
+{% block content %}
+<h2>Meal Details</h2>
+<img src="{{ meal.image }}"width="250">
+<ul>
+    <li>Name: {{ meal.name }}</li>
+    <li>Price: {{ meal.price }} SR</li>
+    <li>Category: {{ meal.category }}</li>
+    <li>Description: {{ meal.description }}</li>
+</ul>
+{% endblock %}
