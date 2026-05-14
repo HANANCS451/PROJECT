@@ -1,33 +1,16 @@
 {% extends 'menu/base.html' %}
-
 {% block content %}
-
 <div class="hero">
-
     <div class="hero-text">
-
         <h2>Welcome To Our Restaurant</h2>
-
-        <p>
-            Discover the best meals, burgers,
-            pizza, desserts and drinks.
-        </p>
-
+        <p> Discover the best meals, burgers,
+            pizza, desserts and drinks. </p>
         <a href="{% url 'meals_list' %}"
            class="btn">
-
-            Explore Menu
-
-        </a>
-
+            Explore Menu</a>
     </div>
-
     <div class="hero-image">
-
         <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png">
-
     </div>
-
 </div>
-
 {% endblock %}
